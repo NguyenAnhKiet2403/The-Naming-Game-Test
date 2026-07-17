@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "patients/HCP/behavioral.csv",
+      "type": "data",
+      "name": "behavioral.csv",
+      "path": "patients/HCP/behavioral.csv",
+      "description": "Behavioral metrics for HCP subjects in CSV format.",
+      "tags": ["data", "csv", "hcp"]
+    },
+    {
+      "id": "patients/HCP/lowesthighestpatients.txt",
+      "type": "doc",
+      "name": "lowesthighestpatients.txt",
+      "path": "patients/HCP/lowesthighestpatients.txt",
+      "description": "List of patients identified as lowest/highest performers.",
+      "tags": ["docs", "txt", "hcp"]
+    },
+    {
+      "id": "patients/HCP/subjects.txt",
+      "type": "doc",
+      "name": "subjects.txt",
+      "path": "patients/HCP/subjects.txt",
+      "description": "List of subjects included in the HCP study.",
+      "tags": ["docs", "txt", "hcp"]
+    }
+  ],
+  "edges": []
+}

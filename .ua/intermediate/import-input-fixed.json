@@ -1,0 +1,55 @@
+{
+  "projectRoot": "/home/anh-kiet-nguyen/Lab_project/Reference/Naming_game_VUB/The-Naming-Game-Test",
+  "files": [
+    {
+      "path": "convergenceScript.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "exports/export.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "exports/possibleExports.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "NamingGame.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGameTools/AgentPairs.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGameTools/MatrixFactory.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGameTools/Strategy.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "variants/BaselineNG.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "variants/Imitation.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "variants/ABNG.py",
+      "language": "python",
+      "fileCategory": "code"
+    }
+  ]
+}

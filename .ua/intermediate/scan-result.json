@@ -1,0 +1,471 @@
+{
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "convergenceScript.py",
+      "language": "python",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "exports/export.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "exports/possibleExports.py",
+      "language": "python",
+      "sizeLines": 315,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/consensusTimePerEstablishingLinks.py",
+      "language": "python",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/consensusTimePerNeighbour.py",
+      "language": "python",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/CTPN small World.py",
+      "language": "python",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/CTPN violinplot.py",
+      "language": "python",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/namesInCirculation.py",
+      "language": "python",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/namesPerIteration.py",
+      "language": "python",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/preferredAction.py",
+      "language": "python",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/generated/preferredActionTimelapse.py",
+      "language": "python",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/AIMSPlotter.py",
+      "language": "python",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/AIMSPlotterGrouped.py",
+      "language": "python",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/csv_results/consensusTime.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/csv_results/graphCircleAnalysisCSV.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/csv_results/histogram.py",
+      "language": "python",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/csv_results/meanConvergence.py",
+      "language": "python",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/csv_results/scatterPlot.py",
+      "language": "python",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/regular/CTPN patientData.py",
+      "language": "python",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/regular/graphCircleAnalysis.py",
+      "language": "python",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/regular/meanPlotConvergence95.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/regular/preferredActionPatient.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/regular/scatterPlotConvergence95.py",
+      "language": "python",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/regular/SDMTchart.py",
+      "language": "python",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Individual/SurvivalPlots.py",
+      "language": "python",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Misc/visualizeSC.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graph/patient/Misc/weightDistribution.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphAnalysis/characteristicPathLength.py",
+      "language": "python",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphAnalysis/Clustering.py",
+      "language": "python",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphAnalysis/degreeDistribution.py",
+      "language": "python",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphAnalysis/localEfficiency.py",
+      "language": "python",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphAnalysis/smallWorldNess.py",
+      "language": "python",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphAnalysis/smallWorldNessGraph.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "MATLAB Legacy Port/makeLatticeMatrix.py",
+      "language": "python",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "MATLAB Legacy Port/makeScaleFreeMatrix.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "MATLAB Legacy Port/makeSmallWorldMatrix.py",
+      "language": "python",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "MATLAB Legacy Port/pairAgents.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "MATLAB Legacy Port/pairAgentsImproved.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "MATLAB Legacy Port/pairAgentsVillatoroWise.py",
+      "language": "python",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGame.pbs",
+      "language": "pbs",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "NamingGame.py",
+      "language": "python",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGameTools/AgentPairs.py",
+      "language": "python",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGameTools/MatrixFactory.py",
+      "language": "python",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "namingGameTools/Strategy.py",
+      "language": "python",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "output/exampleConvergence.csv",
+      "language": "csv",
+      "sizeLines": 813,
+      "fileCategory": "data"
+    },
+    {
+      "path": "patients/BRUMEG_functional/loadBrumegData.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "patients/graphMetadata.py",
+      "language": "python",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "patients/HCP/behavioral.csv",
+      "language": "csv",
+      "sizeLines": 1207,
+      "fileCategory": "data"
+    },
+    {
+      "path": "patients/HCP/loadBehavioralInfo.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "patients/HCP/loadHCPData.py",
+      "language": "python",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "patients/HCP/lowesthighestpatients.txt",
+      "language": "txt",
+      "sizeLines": 1,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "patients/HCP/subjects.txt",
+      "language": "txt",
+      "sizeLines": 812,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "patients/output/convergenceBRUMEG_AAL2_abs_50.csv",
+      "language": "csv",
+      "sizeLines": 3851,
+      "fileCategory": "data"
+    },
+    {
+      "path": "patients/patientData.py",
+      "language": "python",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "preferredActionScript.py",
+      "language": "python",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 224,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "requirements.txt",
+      "language": "txt",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "SyntheticNN/MSPredictor.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "SyntheticNN/NamingGamePredictor.py",
+      "language": "python",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "SyntheticNN/PredictAverageConversion.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/AgentPairsTest.py",
+      "language": "python",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/BaselineNGTest.py",
+      "language": "python",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/ImitationTest.py",
+      "language": "python",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/MatrixFactoryTest.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/NamingGameTest.py",
+      "language": "python",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "variants/ABNG.py",
+      "language": "python",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "variants/BaselineNG.py",
+      "language": "python",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "variants/Imitation.py",
+      "language": "python",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 70,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "stats": {
+    "filesScanned": 70,
+    "byCategory": {
+      "code": 62,
+      "config": 1,
+      "data": 3,
+      "docs": 4
+    },
+    "byLanguage": {
+      "unknown": 1,
+      "json": 1,
+      "python": 60,
+      "pbs": 1,
+      "csv": 3,
+      "txt": 3,
+      "markdown": 1
+    }
+  },
+  "importMap": {
+    "file:convergenceScript.py": [
+      "file:variants/ABNG.py"
+    ],
+    "file:exports/export.py": [],
+    "file:exports/possibleExports.py": [
+      "file:exports/export.py"
+    ],
+    "file:NamingGame.py": [
+      "file:exports/possibleExports.py"
+    ],
+    "file:namingGameTools/AgentPairs.py": [],
+    "file:namingGameTools/MatrixFactory.py": [],
+    "file:namingGameTools/Strategy.py": [],
+    "file:variants/BaselineNG.py": [
+      "file:NamingGame.py"
+    ],
+    "file:variants/Imitation.py": [
+      "file:variants/BaselineNG.py"
+    ],
+    "file:variants/ABNG.py": [
+      "file:variants/BaselineNG.py",
+      "file:variants/Imitation.py"
+    ]
+  }
+}

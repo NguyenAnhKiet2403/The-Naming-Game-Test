@@ -1,0 +1,32 @@
+{
+  "graph_review": {
+    "summary": {
+      "total_nodes": 70,
+      "total_edges": 0,
+      "status": "Incomplete - missing edge relationships"
+    },
+    "issues": {
+      "node_types": [
+        "62 nodes identified with unknown type 'code'",
+        "4 nodes identified with unknown type 'doc'",
+        "3 nodes identified with unknown type 'data'"
+      ],
+      "structural": [
+        "Graph contains 0 edges due to missing import mapping analysis"
+      ]
+    },
+    "recommendations": {
+      "normalization": {
+        "code": "Normalize all 'code' type nodes to 'file'.",
+        "doc": "Normalize all 'doc' type nodes to 'document'.",
+        "data": "Normalize all 'data' type nodes to 'resource'.",
+        "config": "Keep 'config' type nodes as is, or normalize to 'file' if preferred for simplicity."
+      },
+      "structural_fixes": [
+        "Re-run the scan process with import mapping enabled to populate the edge list.",
+        "Verify if the 'importMap' generation step in the scanning process is correctly implemented.",
+        "Investigate why 'importMap' recovery was skipped in the previous scan."
+      ]
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "graph/patient/Individual/regular/SDMTchart.py",
+      "type": "code",
+      "name": "SDMTchart.py",
+      "path": "graph/patient/Individual/regular/SDMTchart.py",
+      "description": "Generates SDMT chart.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/patient/Individual/SurvivalPlots.py",
+      "type": "code",
+      "name": "SurvivalPlots.py",
+      "path": "graph/patient/Individual/SurvivalPlots.py",
+      "description": "Generates survival plots for individuals.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/patient/Misc/visualizeSC.py",
+      "type": "code",
+      "name": "visualizeSC.py",
+      "path": "graph/patient/Misc/visualizeSC.py",
+      "description": "Visualizes SC data.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/patient/Misc/weightDistribution.py",
+      "type": "code",
+      "name": "weightDistribution.py",
+      "path": "graph/patient/Misc/weightDistribution.py",
+      "description": "Analyzes weight distribution.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graphAnalysis/characteristicPathLength.py",
+      "type": "code",
+      "name": "characteristicPathLength.py",
+      "path": "graphAnalysis/characteristicPathLength.py",
+      "description": "Calculates characteristic path length.",
+      "tags": ["python", "graph", "analysis"]
+    },
+    {
+      "id": "graphAnalysis/Clustering.py",
+      "type": "code",
+      "name": "Clustering.py",
+      "path": "graphAnalysis/Clustering.py",
+      "description": "Performs clustering analysis.",
+      "tags": ["python", "graph", "analysis"]
+    },
+    {
+      "id": "graphAnalysis/degreeDistribution.py",
+      "type": "code",
+      "name": "degreeDistribution.py",
+      "path": "graphAnalysis/degreeDistribution.py",
+      "description": "Calculates degree distribution.",
+      "tags": ["python", "graph", "analysis"]
+    },
+    {
+      "id": "graphAnalysis/localEfficiency.py",
+      "type": "code",
+      "name": "localEfficiency.py",
+      "path": "graphAnalysis/localEfficiency.py",
+      "description": "Calculates local efficiency.",
+      "tags": ["python", "graph", "analysis"]
+    },
+    {
+      "id": "graphAnalysis/smallWorldNess.py",
+      "type": "code",
+      "name": "smallWorldNess.py",
+      "path": "graphAnalysis/smallWorldNess.py",
+      "description": "Calculates small-world-ness.",
+      "tags": ["python", "graph", "analysis"]
+    },
+    {
+      "id": "graphAnalysis/smallWorldNessGraph.py",
+      "type": "code",
+      "name": "smallWorldNessGraph.py",
+      "path": "graphAnalysis/smallWorldNessGraph.py",
+      "description": "Visualizes small-world-ness.",
+      "tags": ["python", "graph", "analysis"]
+    },
+    {
+      "id": "MATLAB Legacy Port/makeLatticeMatrix.py",
+      "type": "code",
+      "name": "makeLatticeMatrix.py",
+      "path": "MATLAB Legacy Port/makeLatticeMatrix.py",
+      "description": "Generates lattice matrix (MATLAB legacy port).",
+      "tags": ["python", "matlab", "matrix"]
+    },
+    {
+      "id": "MATLAB Legacy Port/makeScaleFreeMatrix.py",
+      "type": "code",
+      "name": "makeScaleFreeMatrix.py",
+      "path": "MATLAB Legacy Port/makeScaleFreeMatrix.py",
+      "description": "Generates scale-free matrix (MATLAB legacy port).",
+      "tags": ["python", "matlab", "matrix"]
+    },
+    {
+      "id": "MATLAB Legacy Port/makeSmallWorldMatrix.py",
+      "type": "code",
+      "name": "makeSmallWorldMatrix.py",
+      "path": "MATLAB Legacy Port/makeSmallWorldMatrix.py",
+      "description": "Generates small-world matrix (MATLAB legacy port).",
+      "tags": ["python", "matlab", "matrix"]
+    },
+    {
+      "id": "MATLAB Legacy Port/pairAgents.py",
+      "type": "code",
+      "name": "pairAgents.py",
+      "path": "MATLAB Legacy Port/pairAgents.py",
+      "description": "Pairs agents (MATLAB legacy port).",
+      "tags": ["python", "matlab"]
+    },
+    {
+      "id": "MATLAB Legacy Port/pairAgentsImproved.py",
+      "type": "code",
+      "name": "pairAgentsImproved.py",
+      "path": "MATLAB Legacy Port/pairAgentsImproved.py",
+      "description": "Pairs agents improved (MATLAB legacy port).",
+      "tags": ["python", "matlab"]
+    },
+    {
+      "id": "MATLAB Legacy Port/pairAgentsVillatoroWise.py",
+      "type": "code",
+      "name": "pairAgentsVillatoroWise.py",
+      "path": "MATLAB Legacy Port/pairAgentsVillatoroWise.py",
+      "description": "Pairs agents Villatoro-wise (MATLAB legacy port).",
+      "tags": ["python", "matlab"]
+    },
+    {
+      "id": "namingGame.pbs",
+      "type": "code",
+      "name": "namingGame.pbs",
+      "path": "namingGame.pbs",
+      "description": "PBS batch script for Naming Game.",
+      "tags": ["pbs", "script"]
+    },
+    {
+      "id": "NamingGame.py",
+      "type": "code",
+      "name": "NamingGame.py",
+      "path": "NamingGame.py",
+      "description": "Main Naming Game implementation.",
+      "tags": ["python", "naming-game"]
+    },
+    {
+      "id": "namingGameTools/AgentPairs.py",
+      "type": "code",
+      "name": "AgentPairs.py",
+      "path": "namingGameTools/AgentPairs.py",
+      "description": "Tools for pairing agents in Naming Game.",
+      "tags": ["python", "naming-game", "tools"]
+    },
+    {
+      "id": "namingGameTools/MatrixFactory.py",
+      "type": "code",
+      "name": "MatrixFactory.py",
+      "path": "namingGameTools/MatrixFactory.py",
+      "description": "Factory for creating matrices.",
+      "tags": ["python", "naming-game", "tools", "matrix"]
+    },
+    {
+      "id": "namingGameTools/Strategy.py",
+      "type": "code",
+      "name": "Strategy.py",
+      "path": "namingGameTools/Strategy.py",
+      "description": "Strategy definitions for Naming Game.",
+      "tags": ["python", "naming-game", "tools"]
+    },
+    {
+      "id": "output/exampleConvergence.csv",
+      "type": "data",
+      "name": "exampleConvergence.csv",
+      "path": "output/exampleConvergence.csv",
+      "description": "Example convergence CSV data.",
+      "tags": ["data", "csv"]
+    },
+    {
+      "id": "patients/BRUMEG_functional/loadBrumegData.py",
+      "type": "code",
+      "name": "loadBrumegData.py",
+      "path": "patients/BRUMEG_functional/loadBrumegData.py",
+      "description": "Loads BRUMEG functional data.",
+      "tags": ["python", "data", "brumeg"]
+    },
+    {
+      "id": "patients/graphMetadata.py",
+      "type": "code",
+      "name": "graphMetadata.py",
+      "path": "patients/graphMetadata.py",
+      "description": "Metadata for patient graphs.",
+      "tags": ["python", "data", "metadata"]
+    },
+    {
+      "id": "patients/HCP/loadBehavioralInfo.py",
+      "type": "code",
+      "name": "loadBehavioralInfo.py",
+      "path": "patients/HCP/loadBehavioralInfo.py",
+      "description": "Loads HCP behavioral information.",
+      "tags": ["python", "data", "hcp"]
+    }
+  ],
+  "edges": []
+}

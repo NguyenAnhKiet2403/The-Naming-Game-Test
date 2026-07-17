@@ -1,0 +1,33 @@
+{
+  "scriptCompleted": true,
+  "stats": {
+    "filesScanned": 10,
+    "filesWithImports": 6,
+    "totalEdges": 7
+  },
+  "importMap": {
+    "file:convergenceScript.py": [
+      "file:variants/ABNG.py"
+    ],
+    "file:exports/export.py": [],
+    "file:exports/possibleExports.py": [
+      "file:exports/export.py"
+    ],
+    "file:NamingGame.py": [
+      "file:exports/possibleExports.py"
+    ],
+    "file:namingGameTools/AgentPairs.py": [],
+    "file:namingGameTools/MatrixFactory.py": [],
+    "file:namingGameTools/Strategy.py": [],
+    "file:variants/BaselineNG.py": [
+      "file:NamingGame.py"
+    ],
+    "file:variants/Imitation.py": [
+      "file:variants/BaselineNG.py"
+    ],
+    "file:variants/ABNG.py": [
+      "file:variants/BaselineNG.py",
+      "file:variants/Imitation.py"
+    ]
+  }
+}

@@ -88,5 +88,7 @@ class BaselineNG(NamingGame):
     #remove perceived topic
     self.memory[listener].remove((name, perceivedTopic))
 
+  def speaker_success(self, speaker, topic, name):
+      pass
 
 

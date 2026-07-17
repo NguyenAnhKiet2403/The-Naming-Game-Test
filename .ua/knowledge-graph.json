@@ -1,0 +1,899 @@
+{
+  "nodes": [
+    {
+      "id": "file:patients/HCP/behavioral.csv",
+      "type": "data",
+      "name": "behavioral.csv",
+      "path": "patients/HCP/behavioral.csv",
+      "description": "Behavioral metrics for HCP subjects in CSV format.",
+      "tags": [
+        "data",
+        "csv",
+        "hcp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/HCP/lowesthighestpatients.txt",
+      "type": "doc",
+      "name": "lowesthighestpatients.txt",
+      "path": "patients/HCP/lowesthighestpatients.txt",
+      "description": "List of patients identified as lowest/highest performers.",
+      "tags": [
+        "docs",
+        "txt",
+        "hcp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/HCP/subjects.txt",
+      "type": "doc",
+      "name": "subjects.txt",
+      "path": "patients/HCP/subjects.txt",
+      "description": "List of subjects included in the HCP study.",
+      "tags": [
+        "docs",
+        "txt",
+        "hcp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.ua/.understandignore",
+      "type": "code",
+      "name": ".understandignore",
+      "path": ".ua/.understandignore",
+      "description": "Ignore file for the Understand Anything tool.",
+      "tags": [
+        "config",
+        "ignore"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.ua/config.json",
+      "type": "config",
+      "name": "config.json",
+      "path": ".ua/config.json",
+      "description": "Configuration file for the Understand Anything tool.",
+      "tags": [
+        "config",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:convergenceScript.py",
+      "type": "code",
+      "name": "convergenceScript.py",
+      "path": "convergenceScript.py",
+      "description": "Script to analyze Naming Game convergence.",
+      "tags": [
+        "python",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:exports/export.py",
+      "type": "code",
+      "name": "export.py",
+      "path": "exports/export.py",
+      "description": "Script to export data.",
+      "tags": [
+        "python",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:exports/possibleExports.py",
+      "type": "code",
+      "name": "possibleExports.py",
+      "path": "exports/possibleExports.py",
+      "description": "Defines possible export formats.",
+      "tags": [
+        "python",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/consensusTimePerEstablishingLinks.py",
+      "type": "code",
+      "name": "consensusTimePerEstablishingLinks.py",
+      "path": "graph/generated/consensusTimePerEstablishingLinks.py",
+      "description": "Generates plot for consensus time per establishing links.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/consensusTimePerNeighbour.py",
+      "type": "code",
+      "name": "consensusTimePerNeighbour.py",
+      "path": "graph/generated/consensusTimePerNeighbour.py",
+      "description": "Generates plot for consensus time per neighbour.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/CTPN small World.py",
+      "type": "code",
+      "name": "CTPN small World.py",
+      "path": "graph/generated/CTPN small World.py",
+      "description": "Generates plot for CTPN small world analysis.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/CTPN violinplot.py",
+      "type": "code",
+      "name": "CTPN violinplot.py",
+      "path": "graph/generated/CTPN violinplot.py",
+      "description": "Generates violin plot for CTPN analysis.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/namesInCirculation.py",
+      "type": "code",
+      "name": "namesInCirculation.py",
+      "path": "graph/generated/namesInCirculation.py",
+      "description": "Tracks names in circulation over time.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/namesPerIteration.py",
+      "type": "code",
+      "name": "namesPerIteration.py",
+      "path": "graph/generated/namesPerIteration.py",
+      "description": "Tracks number of names per iteration.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/preferredAction.py",
+      "type": "code",
+      "name": "preferredAction.py",
+      "path": "graph/generated/preferredAction.py",
+      "description": "Analyzes preferred actions.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/generated/preferredActionTimelapse.py",
+      "type": "code",
+      "name": "preferredActionTimelapse.py",
+      "path": "graph/generated/preferredActionTimelapse.py",
+      "description": "Generates timelapse of preferred actions.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/AIMSPlotter.py",
+      "type": "code",
+      "name": "AIMSPlotter.py",
+      "path": "graph/patient/Individual/AIMSPlotter.py",
+      "description": "Plots AIMS data for individuals.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/AIMSPlotterGrouped.py",
+      "type": "code",
+      "name": "AIMSPlotterGrouped.py",
+      "path": "graph/patient/Individual/AIMSPlotterGrouped.py",
+      "description": "Plots grouped AIMS data.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/csv_results/consensusTime.py",
+      "type": "code",
+      "name": "consensusTime.py",
+      "path": "graph/patient/Individual/csv_results/consensusTime.py",
+      "description": "Analyzes consensus time from CSV results.",
+      "tags": [
+        "python",
+        "graph",
+        "csv"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/csv_results/graphCircleAnalysisCSV.py",
+      "type": "code",
+      "name": "graphCircleAnalysisCSV.py",
+      "path": "graph/patient/Individual/csv_results/graphCircleAnalysisCSV.py",
+      "description": "Performs graph circle analysis on CSV data.",
+      "tags": [
+        "python",
+        "graph",
+        "csv"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/csv_results/histogram.py",
+      "type": "code",
+      "name": "histogram.py",
+      "path": "graph/patient/Individual/csv_results/histogram.py",
+      "description": "Generates histograms from CSV data.",
+      "tags": [
+        "python",
+        "graph",
+        "plot",
+        "csv"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/csv_results/meanConvergence.py",
+      "type": "code",
+      "name": "meanConvergence.py",
+      "path": "graph/patient/Individual/csv_results/meanConvergence.py",
+      "description": "Calculates mean convergence from CSV data.",
+      "tags": [
+        "python",
+        "graph",
+        "csv"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/csv_results/scatterPlot.py",
+      "type": "code",
+      "name": "scatterPlot.py",
+      "path": "graph/patient/Individual/csv_results/scatterPlot.py",
+      "description": "Generates scatter plots from CSV data.",
+      "tags": [
+        "python",
+        "graph",
+        "plot",
+        "csv"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/regular/CTPN patientData.py",
+      "type": "code",
+      "name": "CTPN patientData.py",
+      "path": "graph/patient/Individual/regular/CTPN patientData.py",
+      "description": "Analyzes CTPN patient data.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/regular/graphCircleAnalysis.py",
+      "type": "code",
+      "name": "graphCircleAnalysis.py",
+      "path": "graph/patient/Individual/regular/graphCircleAnalysis.py",
+      "description": "Performs graph circle analysis.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/regular/meanPlotConvergence95.py",
+      "type": "code",
+      "name": "meanPlotConvergence95.py",
+      "path": "graph/patient/Individual/regular/meanPlotConvergence95.py",
+      "description": "Plots mean convergence with 95% confidence interval.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/regular/preferredActionPatient.py",
+      "type": "code",
+      "name": "preferredActionPatient.py",
+      "path": "graph/patient/Individual/regular/preferredActionPatient.py",
+      "description": "Analyzes preferred action for patients.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/regular/scatterPlotConvergence95.py",
+      "type": "code",
+      "name": "scatterPlotConvergence95.py",
+      "path": "graph/patient/Individual/regular/scatterPlotConvergence95.py",
+      "description": "Generates scatter plot of convergence with 95% confidence interval.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/regular/SDMTchart.py",
+      "type": "code",
+      "name": "SDMTchart.py",
+      "path": "graph/patient/Individual/regular/SDMTchart.py",
+      "description": "Generates SDMT chart.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Individual/SurvivalPlots.py",
+      "type": "code",
+      "name": "SurvivalPlots.py",
+      "path": "graph/patient/Individual/SurvivalPlots.py",
+      "description": "Generates survival plots for individuals.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Misc/visualizeSC.py",
+      "type": "code",
+      "name": "visualizeSC.py",
+      "path": "graph/patient/Misc/visualizeSC.py",
+      "description": "Visualizes SC data.",
+      "tags": [
+        "python",
+        "graph",
+        "plot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graph/patient/Misc/weightDistribution.py",
+      "type": "code",
+      "name": "weightDistribution.py",
+      "path": "graph/patient/Misc/weightDistribution.py",
+      "description": "Analyzes weight distribution.",
+      "tags": [
+        "python",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graphAnalysis/characteristicPathLength.py",
+      "type": "code",
+      "name": "characteristicPathLength.py",
+      "path": "graphAnalysis/characteristicPathLength.py",
+      "description": "Calculates characteristic path length.",
+      "tags": [
+        "python",
+        "graph",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graphAnalysis/Clustering.py",
+      "type": "code",
+      "name": "Clustering.py",
+      "path": "graphAnalysis/Clustering.py",
+      "description": "Performs clustering analysis.",
+      "tags": [
+        "python",
+        "graph",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graphAnalysis/degreeDistribution.py",
+      "type": "code",
+      "name": "degreeDistribution.py",
+      "path": "graphAnalysis/degreeDistribution.py",
+      "description": "Calculates degree distribution.",
+      "tags": [
+        "python",
+        "graph",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graphAnalysis/localEfficiency.py",
+      "type": "code",
+      "name": "localEfficiency.py",
+      "path": "graphAnalysis/localEfficiency.py",
+      "description": "Calculates local efficiency.",
+      "tags": [
+        "python",
+        "graph",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graphAnalysis/smallWorldNess.py",
+      "type": "code",
+      "name": "smallWorldNess.py",
+      "path": "graphAnalysis/smallWorldNess.py",
+      "description": "Calculates small-world-ness.",
+      "tags": [
+        "python",
+        "graph",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:graphAnalysis/smallWorldNessGraph.py",
+      "type": "code",
+      "name": "smallWorldNessGraph.py",
+      "path": "graphAnalysis/smallWorldNessGraph.py",
+      "description": "Visualizes small-world-ness.",
+      "tags": [
+        "python",
+        "graph",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:MATLAB Legacy Port/makeLatticeMatrix.py",
+      "type": "code",
+      "name": "makeLatticeMatrix.py",
+      "path": "MATLAB Legacy Port/makeLatticeMatrix.py",
+      "description": "Generates lattice matrix (MATLAB legacy port).",
+      "tags": [
+        "python",
+        "matlab",
+        "matrix"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:MATLAB Legacy Port/makeScaleFreeMatrix.py",
+      "type": "code",
+      "name": "makeScaleFreeMatrix.py",
+      "path": "MATLAB Legacy Port/makeScaleFreeMatrix.py",
+      "description": "Generates scale-free matrix (MATLAB legacy port).",
+      "tags": [
+        "python",
+        "matlab",
+        "matrix"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:MATLAB Legacy Port/makeSmallWorldMatrix.py",
+      "type": "code",
+      "name": "makeSmallWorldMatrix.py",
+      "path": "MATLAB Legacy Port/makeSmallWorldMatrix.py",
+      "description": "Generates small-world matrix (MATLAB legacy port).",
+      "tags": [
+        "python",
+        "matlab",
+        "matrix"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:MATLAB Legacy Port/pairAgents.py",
+      "type": "code",
+      "name": "pairAgents.py",
+      "path": "MATLAB Legacy Port/pairAgents.py",
+      "description": "Pairs agents (MATLAB legacy port).",
+      "tags": [
+        "python",
+        "matlab"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:MATLAB Legacy Port/pairAgentsImproved.py",
+      "type": "code",
+      "name": "pairAgentsImproved.py",
+      "path": "MATLAB Legacy Port/pairAgentsImproved.py",
+      "description": "Pairs agents improved (MATLAB legacy port).",
+      "tags": [
+        "python",
+        "matlab"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:MATLAB Legacy Port/pairAgentsVillatoroWise.py",
+      "type": "code",
+      "name": "pairAgentsVillatoroWise.py",
+      "path": "MATLAB Legacy Port/pairAgentsVillatoroWise.py",
+      "description": "Pairs agents Villatoro-wise (MATLAB legacy port).",
+      "tags": [
+        "python",
+        "matlab"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:namingGame.pbs",
+      "type": "code",
+      "name": "namingGame.pbs",
+      "path": "namingGame.pbs",
+      "description": "PBS batch script for Naming Game.",
+      "tags": [
+        "pbs",
+        "script"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:NamingGame.py",
+      "type": "code",
+      "name": "NamingGame.py",
+      "path": "NamingGame.py",
+      "description": "Main Naming Game implementation.",
+      "tags": [
+        "python",
+        "naming-game"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:namingGameTools/AgentPairs.py",
+      "type": "code",
+      "name": "AgentPairs.py",
+      "path": "namingGameTools/AgentPairs.py",
+      "description": "Tools for pairing agents in Naming Game.",
+      "tags": [
+        "python",
+        "naming-game",
+        "tools"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:namingGameTools/MatrixFactory.py",
+      "type": "code",
+      "name": "MatrixFactory.py",
+      "path": "namingGameTools/MatrixFactory.py",
+      "description": "Factory for creating matrices.",
+      "tags": [
+        "python",
+        "naming-game",
+        "tools",
+        "matrix"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:namingGameTools/Strategy.py",
+      "type": "code",
+      "name": "Strategy.py",
+      "path": "namingGameTools/Strategy.py",
+      "description": "Strategy definitions for Naming Game.",
+      "tags": [
+        "python",
+        "naming-game",
+        "tools"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:output/exampleConvergence.csv",
+      "type": "data",
+      "name": "exampleConvergence.csv",
+      "path": "output/exampleConvergence.csv",
+      "description": "Example convergence CSV data.",
+      "tags": [
+        "data",
+        "csv"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/BRUMEG_functional/loadBrumegData.py",
+      "type": "code",
+      "name": "loadBrumegData.py",
+      "path": "patients/BRUMEG_functional/loadBrumegData.py",
+      "description": "Loads BRUMEG functional data.",
+      "tags": [
+        "python",
+        "data",
+        "brumeg"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/graphMetadata.py",
+      "type": "code",
+      "name": "graphMetadata.py",
+      "path": "patients/graphMetadata.py",
+      "description": "Metadata for patient graphs.",
+      "tags": [
+        "python",
+        "data",
+        "metadata"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/HCP/loadBehavioralInfo.py",
+      "type": "code",
+      "name": "loadBehavioralInfo.py",
+      "path": "patients/HCP/loadBehavioralInfo.py",
+      "description": "Loads HCP behavioral information.",
+      "tags": [
+        "python",
+        "data",
+        "hcp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/HCP/loadHCPData.py",
+      "type": "code",
+      "name": "loadHCPData.py",
+      "path": "patients/HCP/loadHCPData.py",
+      "description": "Loads HCP data.",
+      "tags": [
+        "python",
+        "data",
+        "hcp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/output/convergenceBRUMEG_AAL2_abs_50.csv",
+      "type": "data",
+      "name": "convergenceBRUMEG_AAL2_abs_50.csv",
+      "path": "patients/output/convergenceBRUMEG_AAL2_abs_50.csv",
+      "description": "Convergence results for BRUMEG AAL2 data.",
+      "tags": [
+        "data",
+        "csv",
+        "brumeg"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:patients/patientData.py",
+      "type": "code",
+      "name": "patientData.py",
+      "path": "patients/patientData.py",
+      "description": "Handles patient data loading and processing.",
+      "tags": [
+        "python",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:preferredActionScript.py",
+      "type": "code",
+      "name": "preferredActionScript.py",
+      "path": "preferredActionScript.py",
+      "description": "Script for preferred action analysis.",
+      "tags": [
+        "python",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:README.md",
+      "type": "doc",
+      "name": "README.md",
+      "path": "README.md",
+      "description": "Project documentation.",
+      "tags": [
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:requirements.txt",
+      "type": "doc",
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "description": "Project dependencies.",
+      "tags": [
+        "docs",
+        "txt"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:SyntheticNN/MSPredictor.py",
+      "type": "code",
+      "name": "MSPredictor.py",
+      "path": "SyntheticNN/MSPredictor.py",
+      "description": "Predictor for MS data.",
+      "tags": [
+        "python",
+        "synthetic-nn",
+        "predictor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:SyntheticNN/NamingGamePredictor.py",
+      "type": "code",
+      "name": "NamingGamePredictor.py",
+      "path": "SyntheticNN/NamingGamePredictor.py",
+      "description": "Predictor for Naming Game results.",
+      "tags": [
+        "python",
+        "synthetic-nn",
+        "predictor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:SyntheticNN/PredictAverageConversion.py",
+      "type": "code",
+      "name": "PredictAverageConversion.py",
+      "path": "SyntheticNN/PredictAverageConversion.py",
+      "description": "Predictor for average conversion.",
+      "tags": [
+        "python",
+        "synthetic-nn",
+        "predictor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/AgentPairsTest.py",
+      "type": "code",
+      "name": "AgentPairsTest.py",
+      "path": "tests/AgentPairsTest.py",
+      "description": "Test for AgentPairs tools.",
+      "tags": [
+        "python",
+        "tests"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/BaselineNGTest.py",
+      "type": "code",
+      "name": "BaselineNGTest.py",
+      "path": "tests/BaselineNGTest.py",
+      "description": "Test for BaselineNG.",
+      "tags": [
+        "python",
+        "tests"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/ImitationTest.py",
+      "type": "code",
+      "name": "ImitationTest.py",
+      "path": "tests/ImitationTest.py",
+      "description": "Test for Imitation strategy.",
+      "tags": [
+        "python",
+        "tests"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/MatrixFactoryTest.py",
+      "type": "code",
+      "name": "MatrixFactoryTest.py",
+      "path": "tests/MatrixFactoryTest.py",
+      "description": "Test for MatrixFactory tools.",
+      "tags": [
+        "python",
+        "tests"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/NamingGameTest.py",
+      "type": "code",
+      "name": "NamingGameTest.py",
+      "path": "tests/NamingGameTest.py",
+      "description": "Test for NamingGame main logic.",
+      "tags": [
+        "python",
+        "tests"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:variants/ABNG.py",
+      "type": "code",
+      "name": "ABNG.py",
+      "path": "variants/ABNG.py",
+      "description": "ABNG variant of Naming Game.",
+      "tags": [
+        "python",
+        "variants"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:variants/BaselineNG.py",
+      "type": "code",
+      "name": "BaselineNG.py",
+      "path": "variants/BaselineNG.py",
+      "description": "Baseline variant of Naming Game.",
+      "tags": [
+        "python",
+        "variants"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:variants/Imitation.py",
+      "type": "code",
+      "name": "Imitation.py",
+      "path": "variants/Imitation.py",
+      "description": "Imitation variant of Naming Game.",
+      "tags": [
+        "python",
+        "variants"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [],
+  "project": {
+    "name": "The Naming Game (VUB)",
+    "description": "A Python port of a Naming Game implementation originally developed in MATLAB at VUB, designed for long-term compatibility and extensibility.",
+    "languages": [
+      "python"
+    ],
+    "frameworks": [
+      "pytorch"
+    ],
+    "analyzedAt": "2026-07-15T11:30:05.519586",
+    "gitCommitHash": "e62126fbc756732ebf341b1ccad42196844d6003"
+  }
+}

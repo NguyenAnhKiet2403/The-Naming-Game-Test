@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "patients/HCP/loadHCPData.py",
+      "type": "code",
+      "name": "loadHCPData.py",
+      "path": "patients/HCP/loadHCPData.py",
+      "description": "Loads HCP data.",
+      "tags": ["python", "data", "hcp"]
+    },
+    {
+      "id": "patients/output/convergenceBRUMEG_AAL2_abs_50.csv",
+      "type": "data",
+      "name": "convergenceBRUMEG_AAL2_abs_50.csv",
+      "path": "patients/output/convergenceBRUMEG_AAL2_abs_50.csv",
+      "description": "Convergence results for BRUMEG AAL2 data.",
+      "tags": ["data", "csv", "brumeg"]
+    },
+    {
+      "id": "patients/patientData.py",
+      "type": "code",
+      "name": "patientData.py",
+      "path": "patients/patientData.py",
+      "description": "Handles patient data loading and processing.",
+      "tags": ["python", "data"]
+    },
+    {
+      "id": "preferredActionScript.py",
+      "type": "code",
+      "name": "preferredActionScript.py",
+      "path": "preferredActionScript.py",
+      "description": "Script for preferred action analysis.",
+      "tags": ["python", "analysis"]
+    },
+    {
+      "id": "README.md",
+      "type": "doc",
+      "name": "README.md",
+      "path": "README.md",
+      "description": "Project documentation.",
+      "tags": ["docs", "markdown"]
+    },
+    {
+      "id": "requirements.txt",
+      "type": "doc",
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "description": "Project dependencies.",
+      "tags": ["docs", "txt"]
+    },
+    {
+      "id": "SyntheticNN/MSPredictor.py",
+      "type": "code",
+      "name": "MSPredictor.py",
+      "path": "SyntheticNN/MSPredictor.py",
+      "description": "Predictor for MS data.",
+      "tags": ["python", "synthetic-nn", "predictor"]
+    },
+    {
+      "id": "SyntheticNN/NamingGamePredictor.py",
+      "type": "code",
+      "name": "NamingGamePredictor.py",
+      "path": "SyntheticNN/NamingGamePredictor.py",
+      "description": "Predictor for Naming Game results.",
+      "tags": ["python", "synthetic-nn", "predictor"]
+    },
+    {
+      "id": "SyntheticNN/PredictAverageConversion.py",
+      "type": "code",
+      "name": "PredictAverageConversion.py",
+      "path": "SyntheticNN/PredictAverageConversion.py",
+      "description": "Predictor for average conversion.",
+      "tags": ["python", "synthetic-nn", "predictor"]
+    },
+    {
+      "id": "tests/AgentPairsTest.py",
+      "type": "code",
+      "name": "AgentPairsTest.py",
+      "path": "tests/AgentPairsTest.py",
+      "description": "Test for AgentPairs tools.",
+      "tags": ["python", "tests"]
+    },
+    {
+      "id": "tests/BaselineNGTest.py",
+      "type": "code",
+      "name": "BaselineNGTest.py",
+      "path": "tests/BaselineNGTest.py",
+      "description": "Test for BaselineNG.",
+      "tags": ["python", "tests"]
+    },
+    {
+      "id": "tests/ImitationTest.py",
+      "type": "code",
+      "name": "ImitationTest.py",
+      "path": "tests/ImitationTest.py",
+      "description": "Test for Imitation strategy.",
+      "tags": ["python", "tests"]
+    },
+    {
+      "id": "tests/MatrixFactoryTest.py",
+      "type": "code",
+      "name": "MatrixFactoryTest.py",
+      "path": "tests/MatrixFactoryTest.py",
+      "description": "Test for MatrixFactory tools.",
+      "tags": ["python", "tests"]
+    },
+    {
+      "id": "tests/NamingGameTest.py",
+      "type": "code",
+      "name": "NamingGameTest.py",
+      "path": "tests/NamingGameTest.py",
+      "description": "Test for NamingGame main logic.",
+      "tags": ["python", "tests"]
+    },
+    {
+      "id": "variants/ABNG.py",
+      "type": "code",
+      "name": "ABNG.py",
+      "path": "variants/ABNG.py",
+      "description": "ABNG variant of Naming Game.",
+      "tags": ["python", "variants"]
+    },
+    {
+      "id": "variants/BaselineNG.py",
+      "type": "code",
+      "name": "BaselineNG.py",
+      "path": "variants/BaselineNG.py",
+      "description": "Baseline variant of Naming Game.",
+      "tags": ["python", "variants"]
+    },
+    {
+      "id": "variants/Imitation.py",
+      "type": "code",
+      "name": "Imitation.py",
+      "path": "variants/Imitation.py",
+      "description": "Imitation variant of Naming Game.",
+      "tags": ["python", "variants"]
+    }
+  ],
+  "edges": []
+}

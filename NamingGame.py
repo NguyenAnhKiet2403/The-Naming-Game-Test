@@ -1,16 +1,19 @@
 from abc import ABC, abstractmethod
 from namingGameTools import AgentPairs as ap, Strategy
 from exports.possibleExports import possibleExports
+import numpy as np
 
 
 #Here, we will be defining the abstract superclass for all of the strategies for the Naming game, in general all the Naming Game variants use the same skeleton
 class NamingGame(ABC):
 
-  def __init__(self, simulations=2, maxIterations=50, display=False, strategy=Strategy.multi, output=[], consensusScore = [1]):
+  def __init__(self, simulations=2, maxIterations=50, display=False, strategy=Strategy.multi, output=[], consensusScore = [1], broadcast = False, batch_rule = None):
     self.simulations = simulations
     self.maxIterations = maxIterations
     self.displayEnabled = display
     self.strategy = strategy
+    self.batch_rule = batch_rule
+    self.broadcast = broadcast
     #create a list with all export objects
     self.output = list(map(lambda name: possibleExports[name](name, self), output))
     #get class name
@@ -18,6 +21,18 @@ class NamingGame(ABC):
     self.consensusScore = consensusScore
     #sort consensusScore list to ensure the biggest consensus score becomes last
     self.consensusScore.sort()
+    #set batch rule for broadcast mode
+    if self.broadcast:
+      #check if apply broadcast mode but not set rule
+      if self.batch_rule is None:
+        self.batch_rule = "conservative"
+      valid_rule = ["conservative", "strict", "majority"]
+      #check if set wrong rule name
+      if self.batch_rule not in valid_rule:
+        print("Batch rule not existed, please try another rule")
+      #if rule are correct, then apply it
+      else:
+        self.batch_rule = batch_rule
 
   #Generates the context for The Naming Game
   @abstractmethod
@@ -111,6 +126,49 @@ class NamingGame(ABC):
     else:
       self.adopt(name, intendedTopic, listener, speaker)
 
+  #play the naming game in broadcast mode
+  def play_broadcast(self, speaker, listeners):
+    # speaker picks a topic from context
+    intendedTopic = self.pick(speaker, self.context)
+    # speaker produces a name for said topic
+    name = self.produce(intendedTopic, speaker)
+    # Events list to storage event when speaker and listener communicate
+    # Do not make them communicate immediately due to change on speaker based on variant applied
+    events = []
+    for listener in listeners:
+      # listeners interprets name and gives his own topic
+      perceivedTopic = self.interpret(name, listener)
+      # if we found a topic
+      if perceivedTopic:
+        if intendedTopic == perceivedTopic:
+          events.append({"type":"success", "listener":listener, "intendedTopic":intendedTopic, "perceivedTopic":perceivedTopic})
+        else:
+          events.append({"type":"failure", "listener":listener, "intendedTopic":intendedTopic, "perceivedTopic":perceivedTopic})
+      # if we haven't found a topic, listener should adopt it
+      else:
+        events.append({"type":"adopt", "listener":listener, "intendedTopic":intendedTopic, "perceivedTopic":perceivedTopic})
+    for ev in events:
+      listener = ev["listener"]
+      intendedTopic = ev["intendedTopic"]
+      percievedTopic = ev["percievedTopic"]
+      if ev["type"] == "success":
+        self.success(speaker, listener, intendedTopic, name)
+      elif ev["type"] == "failure":
+        self.failure(speaker, listener, intendedTopic, percievedTopic, name)
+      elif ev["type"] == "adopt":
+        self.adopt(name, intendedTopic, listener, speaker)
+
+    #list success event
+    success_events = [ev for ev in events if ev["type"] == "success"]
+    #Apply batch rule
+    if self.batch_rule == "conservative":
+      self.speaker_success(speaker, intendedTopic, name)
+    elif self.batch_rule == "strict":
+      if len(success_events) == len(listeners):
+        self.speaker_success(speaker, intendedTopic, name)
+    elif self.batch_rule == "majority":
+      if len(success_events) >= 80*len(listeners)/100:
+        self.speaker_success(speaker, intendedTopic, name)
 
   #Does one iteration of the Naming Game for all pairs
   def run(self, matrixNetwork):
@@ -118,8 +176,21 @@ class NamingGame(ABC):
     agentPairs = ap.AgentPairs().generateWeighted(matrixNetwork)
     #choose pairs based of strategy
     chosenPairs = self.strategy(agentPairs)
-    for speaker, listener in chosenPairs:
-      self.play(speaker, listener)
+    #if broadcast mode
+    if self.broadcast:
+      #make a speaker set, if we use multi mode, it will not broadcast 1 speaker more than twice
+      speaker_set = set()
+      for speaker, _ in chosenPairs:
+        if speaker not in speaker_set:
+          speaker_set.add(speaker)
+          #find listener for chosen speaker
+          listeners = np.where((matrixNetwork[speaker, :] != 0) | (matrixNetwork[:, speaker] != 0))[0]
+          listeners = [l for l in listeners if l != speaker]      
+          if len(listeners) > 0:
+            self.play_broadcast(speaker, listeners)
+    else:
+      for speaker, listener in chosenPairs:
+        self.play(speaker, listener)
 
   #Starts the Naming Game with the desired amount of simulations
   def start(self, matrixNetwork):

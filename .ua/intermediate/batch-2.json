@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": ".ua/.understandignore",
+      "type": "code",
+      "name": ".understandignore",
+      "path": ".ua/.understandignore",
+      "description": "Ignore file for the Understand Anything tool.",
+      "tags": ["config", "ignore"]
+    },
+    {
+      "id": ".ua/config.json",
+      "type": "config",
+      "name": "config.json",
+      "path": ".ua/config.json",
+      "description": "Configuration file for the Understand Anything tool.",
+      "tags": ["config", "json"]
+    },
+    {
+      "id": "convergenceScript.py",
+      "type": "code",
+      "name": "convergenceScript.py",
+      "path": "convergenceScript.py",
+      "description": "Script to analyze Naming Game convergence.",
+      "tags": ["python", "analysis"]
+    },
+    {
+      "id": "exports/export.py",
+      "type": "code",
+      "name": "export.py",
+      "path": "exports/export.py",
+      "description": "Script to export data.",
+      "tags": ["python", "export"]
+    },
+    {
+      "id": "exports/possibleExports.py",
+      "type": "code",
+      "name": "possibleExports.py",
+      "path": "exports/possibleExports.py",
+      "description": "Defines possible export formats.",
+      "tags": ["python", "export"]
+    },
+    {
+      "id": "graph/generated/consensusTimePerEstablishingLinks.py",
+      "type": "code",
+      "name": "consensusTimePerEstablishingLinks.py",
+      "path": "graph/generated/consensusTimePerEstablishingLinks.py",
+      "description": "Generates plot for consensus time per establishing links.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/generated/consensusTimePerNeighbour.py",
+      "type": "code",
+      "name": "consensusTimePerNeighbour.py",
+      "path": "graph/generated/consensusTimePerNeighbour.py",
+      "description": "Generates plot for consensus time per neighbour.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/generated/CTPN small World.py",
+      "type": "code",
+      "name": "CTPN small World.py",
+      "path": "graph/generated/CTPN small World.py",
+      "description": "Generates plot for CTPN small world analysis.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/generated/CTPN violinplot.py",
+      "type": "code",
+      "name": "CTPN violinplot.py",
+      "path": "graph/generated/CTPN violinplot.py",
+      "description": "Generates violin plot for CTPN analysis.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/generated/namesInCirculation.py",
+      "type": "code",
+      "name": "namesInCirculation.py",
+      "path": "graph/generated/namesInCirculation.py",
+      "description": "Tracks names in circulation over time.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/generated/namesPerIteration.py",
+      "type": "code",
+      "name": "namesPerIteration.py",
+      "path": "graph/generated/namesPerIteration.py",
+      "description": "Tracks number of names per iteration.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/generated/preferredAction.py",
+      "type": "code",
+      "name": "preferredAction.py",
+      "path": "graph/generated/preferredAction.py",
+      "description": "Analyzes preferred actions.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/generated/preferredActionTimelapse.py",
+      "type": "code",
+      "name": "preferredActionTimelapse.py",
+      "path": "graph/generated/preferredActionTimelapse.py",
+      "description": "Generates timelapse of preferred actions.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/patient/Individual/AIMSPlotter.py",
+      "type": "code",
+      "name": "AIMSPlotter.py",
+      "path": "graph/patient/Individual/AIMSPlotter.py",
+      "description": "Plots AIMS data for individuals.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/patient/Individual/AIMSPlotterGrouped.py",
+      "type": "code",
+      "name": "AIMSPlotterGrouped.py",
+      "path": "graph/patient/Individual/AIMSPlotterGrouped.py",
+      "description": "Plots grouped AIMS data.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/patient/Individual/csv_results/consensusTime.py",
+      "type": "code",
+      "name": "consensusTime.py",
+      "path": "graph/patient/Individual/csv_results/consensusTime.py",
+      "description": "Analyzes consensus time from CSV results.",
+      "tags": ["python", "graph", "csv"]
+    },
+    {
+      "id": "graph/patient/Individual/csv_results/graphCircleAnalysisCSV.py",
+      "type": "code",
+      "name": "graphCircleAnalysisCSV.py",
+      "path": "graph/patient/Individual/csv_results/graphCircleAnalysisCSV.py",
+      "description": "Performs graph circle analysis on CSV data.",
+      "tags": ["python", "graph", "csv"]
+    },
+    {
+      "id": "graph/patient/Individual/csv_results/histogram.py",
+      "type": "code",
+      "name": "histogram.py",
+      "path": "graph/patient/Individual/csv_results/histogram.py",
+      "description": "Generates histograms from CSV data.",
+      "tags": ["python", "graph", "plot", "csv"]
+    },
+    {
+      "id": "graph/patient/Individual/csv_results/meanConvergence.py",
+      "type": "code",
+      "name": "meanConvergence.py",
+      "path": "graph/patient/Individual/csv_results/meanConvergence.py",
+      "description": "Calculates mean convergence from CSV data.",
+      "tags": ["python", "graph", "csv"]
+    },
+    {
+      "id": "graph/patient/Individual/csv_results/scatterPlot.py",
+      "type": "code",
+      "name": "scatterPlot.py",
+      "path": "graph/patient/Individual/csv_results/scatterPlot.py",
+      "description": "Generates scatter plots from CSV data.",
+      "tags": ["python", "graph", "plot", "csv"]
+    },
+    {
+      "id": "graph/patient/Individual/regular/CTPN patientData.py",
+      "type": "code",
+      "name": "CTPN patientData.py",
+      "path": "graph/patient/Individual/regular/CTPN patientData.py",
+      "description": "Analyzes CTPN patient data.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/patient/Individual/regular/graphCircleAnalysis.py",
+      "type": "code",
+      "name": "graphCircleAnalysis.py",
+      "path": "graph/patient/Individual/regular/graphCircleAnalysis.py",
+      "description": "Performs graph circle analysis.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/patient/Individual/regular/meanPlotConvergence95.py",
+      "type": "code",
+      "name": "meanPlotConvergence95.py",
+      "path": "graph/patient/Individual/regular/meanPlotConvergence95.py",
+      "description": "Plots mean convergence with 95% confidence interval.",
+      "tags": ["python", "graph", "plot"]
+    },
+    {
+      "id": "graph/patient/Individual/regular/preferredActionPatient.py",
+      "type": "code",
+      "name": "preferredActionPatient.py",
+      "path": "graph/patient/Individual/regular/preferredActionPatient.py",
+      "description": "Analyzes preferred action for patients.",
+      "tags": ["python", "graph"]
+    },
+    {
+      "id": "graph/patient/Individual/regular/scatterPlotConvergence95.py",
+      "type": "code",
+      "name": "scatterPlotConvergence95.py",
+      "path": "graph/patient/Individual/regular/scatterPlotConvergence95.py",
+      "description": "Generates scatter plot of convergence with 95% confidence interval.",
+      "tags": ["python", "graph", "plot"]
+    }
+  ],
+  "edges": []
+}

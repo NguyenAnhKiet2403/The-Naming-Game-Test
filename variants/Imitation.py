@@ -27,8 +27,16 @@ class Imitationv2(BaselineNG):
         self.remove(pairName, topic, agent)
   #same code but only performs clear on success
   def success(self, speaker, listener, topic, name):
-    #remove all previous bindings of the topic from both speaker and listener memory
-    self.removeTopic(topic, speaker, name)
-    self.removeTopic(topic, listener, name)
-    #invoke super
-    super().success(speaker, listener, topic, name)
+    if super().broadcast:
+      #remove all previous bindings of the topic from both speaker and listener memory
+      self.removeTopic(topic, listener, name)
+      #invoke super
+      super().success(speaker, listener, topic, name)
+    else:
+      #remove all previous bindings of the topic from both speaker and listener memory
+      self.removeTopic(topic, speaker, name)
+      self.removeTopic(topic, listener, name)
+      #invoke super
+      super().success(speaker, listener, topic, name)
+  def speaker_success(self, speaker, topic, name):
+      self.removeTopic(topic, speaker, name)
